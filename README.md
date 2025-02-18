@@ -22,7 +22,7 @@ O projeto a seguir foi desenvolvido como parte do desafio 7 Days of Code, uma in
   - **Models**: Contém classes representando filmes, séries e séries de quadrinhos.
   - **Services**: Contém diversas classes de serviços, incluindo:
     - **ApiClient**: Responsável pelas requisições HTTP.
-    - **Parser** (MovieParser, SeriesParser, etc.): Responsáveis por desserializar os dados usando expressões regulares e listas.
+    - **JsonParser** (MovieParser, SeriesParser, etc.): Responsáveis por desserializar os dados usando expressões regulares e listas.
     - **HtmlGenerator**: Responsável por gerar um arquivo HTML a partir dos dados processados.
     - **MarvelUrlGenerator**: Gera a URL da API da Marvel (incluindo o timestamp e o hash).
     - **Main**: Controla a execução, exibindo o menu, inicializando dependências, processando os dados e invocando o gerador de HTML.
